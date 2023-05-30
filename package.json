@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "fs-extra": "^11.1.1",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "xlsx": "^0.18.5"
   }
 }
